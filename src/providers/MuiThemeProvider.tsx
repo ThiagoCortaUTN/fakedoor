@@ -38,7 +38,7 @@ export default function MuiThemeProvider({
 }: CustomThemeProviderProps) {
   return (
     <StyledEngineProvider injectFirst>
-      <ThemeProvider theme={theme}>{children}</ThemeProvider>;
+      <ThemeProvider theme={theme}>{children}</ThemeProvider>
     </StyledEngineProvider>
   );
 }
