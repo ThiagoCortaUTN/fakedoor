@@ -4,8 +4,7 @@ This project is built with Next.js 14. Follow the instructions below to install,
 
 ## Prerequisites
 
-- Node.js (v14.x or later)
-- npm (v6.x or later) or yarn (v1.x or later)
+- Node.js (v18.17 or later)
 
 ## Installation
 
