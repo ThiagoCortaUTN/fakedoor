@@ -12,7 +12,7 @@ This project is built with Next.js 14. Follow the instructions below to install,
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/ThiagoCortaUTN/fakedoor
+git clone https://github.com/ThiagoCortaUTN/fakedoor.git
 ```
 
 2. Install the dependencies:

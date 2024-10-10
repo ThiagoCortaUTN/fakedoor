@@ -11,10 +11,8 @@ import { Task, Modules } from '@/types/modules';
 import { getLessons } from '@/services/api/lessons';
 import ImportContactsTwoToneIcon from '@mui/icons-material/ImportContactsTwoTone';
 import KeyboardArrowLeftTwoToneIcon from '@mui/icons-material/KeyboardArrowLeftTwoTone';
+import { SideBarProps } from '@/types/sidebar';
 
-interface SideBarProps {
-  isLoadingUnity: boolean;
-}
 const SideBar = ({ isLoadingUnity }: SideBarProps) => {
   const [isLoading, setIsLoading] = useState(true);
   const [openDrawer, setOpenDrawer] = useState(false);
