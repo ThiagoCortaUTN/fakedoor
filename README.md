@@ -1,6 +1,6 @@
 # Fakedoor Project
 
-This project is built with Next.js 14. Follow the instructions below to install and run the project.
+This project is built with Next.js 14. Follow the instructions below to install, run, and deploy the project.
 
 ## Prerequisites
 
@@ -12,8 +12,7 @@ This project is built with Next.js 14. Follow the instructions below to install 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/fakedoor.git
-cd fakedoor
+git clone https://github.com/ThiagoCortaUTN/fakedoor
 ```
 
 2. Install the dependencies:
@@ -52,4 +51,12 @@ yarn build
 npm start
 # or
 yarn start
+```
+
+## Deploying to Production
+
+To deploy the project to production, simply push your changes to the `main` branch:
+
+```bash
+git push origin main
 ```
