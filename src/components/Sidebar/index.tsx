@@ -23,12 +23,12 @@ const SideBar = ({ isLoadingUnity }: SideBarProps) => {
   const modules = useMemo(() => {
     if (!lessons) return [];
 
-    const filteredLessons = lessons.content.filter(
+    const filteredLessons = lessons?.content?.filter(
       (lesson) =>
         !lesson.title.toLowerCase().includes('required practical activity') // Not sure what to do with this ones
     );
 
-    const groupedModules = filteredLessons.reduce((modules, task) => {
+    const groupedModules = filteredLessons?.reduce((modules, task) => {
       const splittedTitle = task.title.split(' - ');
       const [moduleNumber, lessonNumber] = splittedTitle[0]
         .split('.')
